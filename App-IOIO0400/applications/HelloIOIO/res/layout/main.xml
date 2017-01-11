@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:id="@+id/title"/>
+<ToggleButton android:text="ToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button"></ToggleButton>
+
+<EditText
+    android:id="@+id/edittext"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="input the alpha"/>
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="alpha" />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="ACCELEROMETER"/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_weight="1"
+    >
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="X"
+    android:id="@+id/ACC_X"/>
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="Y"
+    android:id="@+id/ACC_Y"/>
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="Z"
+    android:id="@+id/ACC_Z"/>
+    
+</LinearLayout>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="GYROSCOP"/>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_weight="1"
+    >
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="X" 
+    android:id="@+id/GYRO_X"/>
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="Y"
+    android:id="@+id/GYRO_Y"/>
+    <TextView  
+    android:layout_weight="1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:text="Z"
+    android:id="@+id/GYRO_Z"/>
+    
+</LinearLayout>
+</LinearLayout>
